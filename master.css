@@ -1,0 +1,74 @@
+#mynav{
+    color: #2f4363;
+}
+
+#paragraph:first-letter{
+    text-transform:capitalize;
+    color: red;
+    font-size: 500%;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-right: 5pt;
+    font-family: 'Cuprum', sans-serif;
+
+
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+
+
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    border: 2px solid black;
+
+}
+
+img{
+    width: 200px;
+    height: 350px;
+}
+
+#border{
+    border: 2px solid black;
+}
+
+.media{
+    width: 110%;
+
+}
+
+.breadcrumb{
+    border: 3px solid black;
+}
+
+#footer {
+  height: 40px;
+}
+#footer {
+  background-color: rgb(51, 51, 51);
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+#paragraptwo{
+  color: rgb(157, 157, 157);
+  text-align: center;
+  padding-top: 10px
+}
+
+#fo{
+  color: rgb(157, 157, 157);
+}
