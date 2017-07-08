@@ -93,9 +93,10 @@ $('.board button').on('click',function() {
   changeColor(bottomAvail,col,currentColor);
 
   if (horizontalWinCheck() || verticalWinCheck() || diagonalWinCheck()) {
-    $('h1').text(currentName + " You have won.");
+    $('h1').text(currentName + " has won! Refresh your browser to play again!").css("fontSize", "50px");
     $('h3').slideUp('fast');
     $('h2').slideUp('fast');
+    disableBoard();
   }
 
   currentPlayer = currentPlayer * -1;
@@ -112,3 +113,7 @@ $('.board button').on('click',function() {
   }
 
 });
+
+function disableBoard(){
+  $('button').off();
+}
